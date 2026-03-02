@@ -1,0 +1,291 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+\usepackage{ragged2e}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[USenglish]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+ \usepackage[default]{times}
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-2pt}\scshape\raggedright\Large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small\justifying{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\publicationItem}[1]{
+  \item\small\justifying{
+    {#1 \vspace{-12pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.98\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{\small #1} & {\small #2}\vspace{0pt}\\  
+      {\small #3} & {\footnotesize #4}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \vspace{5pt}
+    \begin{tabular*}{0.98\textwidth}{l@{\extracolsep{\fill}}r}
+    {#1} & {\footnotesize #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.15in]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-4pt}}
+\newcommand{\publicationItemListStart}{\begin{enumerate}[leftmargin=0.25in, label={[}\arabic*{]}]}
+\newcommand{\publicationItemListEnd}{\end{enumerate}}
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge\scshape Yang Yang, Ph.D.} \\ \vspace{6pt}
+    
+    \href{mailto:dr.yaaang@icloud.com}{dr.yaaang@icloud.com} $|$ 
+    +46 701606864 $|$ 
+    \href{https://www.linkedin.com/in/yaaang}{linkedin.com/in/yaaang} $|$ 
+    \href{https://dryaaang.github.io}{dryaaang.github.io} $|$ 
+    \href{https://orcid.org/0009-0008-5839-0263}{ORCID 0009-0008-5839-0263}
+\end{center}
+
+
+%-----------SUMMARY-----------
+% \section*{Summary}
+% Results-oriented and detail-driven Automation Quality Engineer with a strong background in Java programming and a passion for ensuring software reliability. Experienced in designing, implementing, and executing automated test scripts to verify the functionality and performance of software applications. Proven track record of collaborating with development teams to identify and resolve issues early in the development process. Adept at utilizing testing frameworks such as JUnit and incorporating continuous integration tools like Jenkins. Skilled in creating and maintaining automated test suites for web and mobile applications. Committed to delivering high-quality software by applying industry best practices in testing and automation. Seeking opportunities to contribute technical expertise and enhance software development processes as an Automation Quality Engineer.
+
+
+%-----------EXPERIENCE-----------
+\section{Work Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://traton.com/en.html}{TRATON Group (formerly Scania)}}{Södertälje, Sweden}
+      {Researcher – Battery Safety}{November 2021 – Present}
+      \resumeItemListStart
+      \resumeItem{Led safety testing in pre-development with a focus on thermal runaway for 46xx cylindrical cells.}
+      \resumeItem{Simulate thermal runaways and thermal propagation with computational 3D modeling.}
+      \resumeItem{Pioneered cost-effective methods for battery thermal runaway analysis and multidimensional safety evaluation.}
+      \resumeItem{Developed numerical model of heat flow during thermal runaway propagation, proposed strategic cooling solutions.}
+      \resumeItemListEnd \vspace{-4pt}
+
+  \resumeSubSubheading
+      {Test Engineer for Engine Valve System}{August 2019 – November 2021}
+    \resumeItemListStart
+     \resumeItem{Specified valve components for durability testing, including valves, valve seat inserts, valve guides, valve springs and valve stem seals, inspected valve parts after test, maintained requirements for quality validation.}
+     \resumeItem{Led RCA of part failures from testing and customer feedback, coordinating engine disassembly, wear measurement, lab tests, and technical meetings.}
+     \resumeItem{Established database to archive field and engine test data, contributed to the nomination of valve components.}
+     \resumeItemListEnd \vspace{-4pt}
+
+    \resumeSubSubheading
+      {\href{https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-267561}{Master Thesis Intern - Materials Technology}}{February 2019 – August 2019}
+      \resumeItemListStart
+        \resumeItem{Measured residual stresses with non- and semi-destructive techniques in cast components with complex geometries.}
+        \resumeItem{Compared measurement techniques with computational simulations to validate residual stress analysis.}
+      \resumeItemListEnd \vspace{-4pt}
+  \resumeSubHeadingListEnd
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+
+%-----------PROJECTS-----------
+% \section{Projects}
+%    \resumeSubHeadingListStart
+%      \resumeProjectHeading
+%          {\textbf{Gitlytics} $|$ \emph{Python, Flask, React, PostgreSQL, Docker}}{June 2020 -- Present}
+%          \resumeItemListStart
+%            \resumeItem{Developed a full-stack web application using with Flask serving a REST API with React as the frontend}
+%            \resumeItem{Implemented GitHub OAuth to get data from user’s repositories}
+%            \resumeItem{Visualized GitHub data to show collaboration}
+%            \resumeItem{Used Celery and Redis for asynchronous tasks}
+%          \resumeItemListEnd
+%      \resumeProjectHeading
+%          {\textbf{Simple Paintball} $|$ \emph{Spigot API, Java, Maven, TravisCI, Git}}{May 2018 -- May 2020}
+%          \resumeItemListStart
+%            \resumeItem{Developed a Minecraft server plugin to entertain kids during free time for a previous job}
+%            \resumeItem{Published plugin to websites gaining 2K+ downloads and an average 4.5/5-star review}
+%            \resumeItem{Implemented continuous delivery using TravisCI to build the plugin upon new a release}
+%            \resumeItem{Collaborated with Minecraft server administrators to suggest features and get feedback about the plugin}
+%          \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {\href{https://www.uu.se/en/campus/angstrom-laboratory}{Uppsala University – Ångström Laboratory}}{Uppsala, Sweden}
+      {Ph.D. Materials Chemistry, specializing in Li-ion battery safety}{December 2021 – November 2025}
+
+    \resumeSubheading
+      {\href{https://www.kth.se/en}{KTH Royal Institute of Technology}}{Stockholm, Sweden}
+      {\href{https://www.kth.se/en/studies/master/engineering-materials-science/msc-engineering-materials-science-1.48238}{M.Sc. Engineering Materials Science}}{August 2017 – August 2019}
+
+    \resumeSubheading
+      {\href{https://www.tum.de/en/?r=1}{Technical University of Munich}}{Munich, Germany}
+      {\href{https://www.tum.de/en/studies/degree-programs/detail/mechanical-engineering-master-of-science-msc}{Exchange M.Sc. Mechanical Engineering}}{September 2018 – March 2019}
+
+    \resumeSubheading
+      {\href{http://eng.suda.edu.cn}{Soochow University}}{Suzhou, China}
+      {B.Eng. Metallic Materials Engineering}{August 2013 – June 2017}      
+  \resumeSubHeadingListEnd
+
+
+%-----------CONFERENCE PRESENTATIONS-----------
+\section{Conference Presentations}
+  \resumeSubHeadingListStart
+\resumeSubheading
+      {\href{https://www.imlb.org}{International Meeting on Lithium Batteries (IMLB)}}{Hong Kong}
+      {A Cost-effective Method of Analyzing Thermal Runaways of Li-ion Battery through Thermocouples}{June 2024}
+
+    \resumeSubheading
+      {\href{https://www.batteriessweden.se/w/bs}{Batteris Sweden (BASE) Annual Meeting}}{Uppsala, Sweden}
+      {Battery Safety Testing and Characterization with Multidimensional Sensors}{April 2024}
+
+    \resumeSubheading
+      {\href{https://www.kth.se/student/kurser/kurs/MH2450?l=en}{Nordic International Seminar for Materials Process}}{Helsinki, Finland}
+      {3D Investigation of Nonmetallic Inclusion Morphology in Steel using Electrolytic Extraction}{November 2018}
+  \resumeSubHeadingListEnd  
+
+
+%-----------SKILLS-----------
+\section{Skills \& Proficiencies}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Computer}{: Microsoft Office, Python, MATLAB, COMSOL Multiphysics} \\
+     \textbf{Technical skills}{: Agile Development (JIRA), Root Cause Analysis (RCA), Data Analysis} \\
+     \textbf{Languages}{: English (professional), Chinese (native), Swedish (conversational), Cantonese (proficient), German (basic)} \\
+    }}
+ \end{itemize}
+
+%-----------PATENT-----------
+\section{Patent}
+\publicationItemListStart
+\publicationItem{\underline{Yang Yang}, David Raymand, Carl Tengstedt, and Jimmy Pham. "An innovative solution for thermal propagation" \textit{Patent- och Registreringsverket}}
+\publicationItemListEnd
+
+%-----------PUBLICATIONS-----------
+\section{Publications \& Academic Service}
+
+\resumeSubHeadingListStart
+    \resumeSubheading
+      {Publications}{}{}{}
+      \vspace{-12pt}
+\publicationItemListStart
+\publicationItem{\href{https://doi.org/10.1002/batt.202500480}{\textbf{Yang Yang}, et al. "Mapping Heat Flow in Prismatic Battery Modules During Thermal Runaway Propagation Using Empirical Data." \textit{Batteries \& Supercaps}} 9 (2026): e202500480.}\\
+
+\publicationItem{\href{https://doi.org/10.1016/j.powera.2026.100203}{\textbf{Yang Yang}, et al. "Modeling the Interplay between Aging and Thermal Runaway Propagation in Large-format Lithium-Ion Batteries." \textit{Journal of Power Sources Advances} 38 (2026): 100203.}}\\
+
+\publicationItem{\href{https://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-568493}{\textbf{Yang Yang}. "Thermal Runaway in Large-Format Lithium-Ion Batteries: Experimental, Diagnostic, and Modeling Approaches for Safer Battery Design." PhD diss., Acta Universitatis Upsaliensis, 2025.}}\\
+
+\publicationItem{\href{https://doi.org/10.1016/j.est.2025.117275}{Ola Willstrand, \textbf{Yang Yang}, et al. "Lab-scale versus industrial-scale thermal runaway tests for lithium-ion battery cells." \textit{Journal of Energy Storage} 129 (2025): 117275.}}\\
+
+\publicationItem{\href{https://doi.org/10.1016/j.jpowsour.2024.234994}{\textbf{Yang Yang}, et al. "Investigating the effect of packing format on LiNi\textsubscript{x}Co\textsubscript{y}Mn\textsubscript{z}O\textsubscript{2} lithium-ion battery failure behavior based on multidimensional signals." \textit{Journal of Power Sources} 614 (2024): 234994.}}\\
+
+\publicationItem{\href{https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4770458}{Kuijie Li, Xinlei Gao, \textbf{Yang Yang}, et al. "Investigating multidimensional signal evolution characteristics of LiFePO\textsubscript{4} batteries under different thermal runaway scenarios." preprint 2024.}}\\
+
+\publicationItem{\href{https://doi.org/10.1016/j.jpowsour.2024.234807}{\textbf{Yang Yang}, et al. "A cost-effective alternative to accelerating rate calorimetry: Analyzing thermal runaways of lithium-ion batteries through thermocouples." \textit{Journal of Power Sources} 612 (2024): 234807.}}\\
+\publicationItemListEnd
+
+    \resumeSubheading
+      {Academic Service}{}{}{}
+      \vspace{-12pt}
+      \resumeItemListStart
+     \resumeItem{Peer reviewer: \href{https://www.sciencedirect.com/journal/journal-of-power-sources}{\textit{Journal of Power Sources}}; \href{https://www.sciencedirect.com/journal/journal-of-power-sources-advances}{\textit{Journal of Power Sources Advances}}; \href{https://www.sciencedirect.com/journal/energy-storage-materials}{\textit{Energy Storage Materials}} (Elsevier)}
+     \resumeItem{Supervisor: \href{https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-376845}{Master’s thesis on Battery Safety Characterization}, KTH Royal Institute of Technology}
+     \resumeItem{Guest lecturer on \href{https://www.uu.se/en/study/programme/masters-programme-renewable-electricity-production}{M.Sc. Renewable Electricity Production}, Uppsala University}
+     \resumeItemListEnd
+
+  \resumeSubHeadingListEnd  
+
+%-----------Certifications-----------
+% \section{Certifications}
+%   \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+%      \textbf{Cloud Digital Leader - Google Cloud} \\
+%      \textit{Issued Sep 2022 - Expires Sep 2025} \\
+%     }}
+%  \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
