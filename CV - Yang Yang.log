@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  2 MAR 2026 18:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdflatex 2026.3.2)  2 MAR 2026 18:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/yyauqw/Documents/GitHub/CV/main.tex
-(/Users/yyauqw/Documents/GitHub/CV/main.tex
+**"/Users/yyauqw/Documents/GitHub/CV/CV - Yang Yang.tex"
+(/Users/yyauqw/Documents/GitHub/CV/CV - Yang Yang.tex
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
 (/usr/local/texlive/2025/texmf-dist/tex/latex/base/article.cls
@@ -262,8 +262,8 @@ File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count287
 \l__pdf_internal_box=\box56
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./CV - Yang Yang.aux)
+\openout1 = `"CV - Yang Yang.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
 LaTeX Font Info:    ... okay on input line 113.
@@ -298,9 +298,9 @@ LaTeX Font Info:    ... okay on input line 113.
 \everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 113.
- (./main.out) (./main.out)
+ (./CV - Yang Yang.out) (./CV - Yang Yang.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `"CV - Yang Yang.out"'.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <10.95> on input line 119.
@@ -367,24 +367,24 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 (fancyhdr)                Make it at least 4.08003pt, for example:
 (fancyhdr)                \setlength{\footskip}{4.08003pt}.
 
-[2] (./main.aux)
+[2] (./CV - Yang Yang.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `"CV - Yang Yang".out' has not changed.
 (rerunfilecheck)             Checksum: 83AAC25592814AE5C1E0F113CD2E6A33;820.
  ) 
 Here is how much of TeX's memory you used:
- 11069 strings out of 473190
- 176043 string characters out of 5715801
- 613491 words of memory out of 5000000
- 34166 multiletter control sequences out of 15000+600000
+ 11071 strings out of 473190
+ 176299 string characters out of 5715801
+ 613545 words of memory out of 5000000
+ 34168 multiletter control sequences out of 15000+600000
  579645 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,922b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,934b,748s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2025/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (2 pages, 71691 bytes).
+Output written on "CV - Yang Yang.pdf" (2 pages, 71691 bytes).
 PDF statistics:
  113 PDF objects out of 1000 (max. 8388607)
  98 compressed objects within 1 object stream

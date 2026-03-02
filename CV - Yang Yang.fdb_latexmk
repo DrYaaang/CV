@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1772472629.96595 "/Users/yyauqw/Documents/GitHub/CV/main.tex" "main.pdf" "main" 1772472630.33949 0
-  "/Users/yyauqw/Documents/GitHub/CV/main.tex" 1772472629.81801 14414 42bd64017c60d20580bc92384626c9c2 ""
+["pdflatex"] 1772472712.35014 "/Users/yyauqw/Documents/GitHub/CV/CV - Yang Yang.tex" "CV - Yang Yang.pdf" "CV - Yang Yang" 1772472712.69223 0
+  "/Users/yyauqw/Documents/GitHub/CV/CV - Yang Yang.tex" 1772472642.97762 14414 42bd64017c60d20580bc92384626c9c2 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2025/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1136768653 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -95,12 +95,12 @@
   "/usr/local/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1772471701 5467155 19efa205003f9ecad95fbbaa6ff24da1 ""
   "/usr/local/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1772471692 3345728 a961b7099a20d423690674aca2b74921 ""
   "/usr/local/texlive/2025/texmf.cnf" 1741450484 577 418a7058ec8e006d8704f60ecd22c938 ""
-  "main.aux" 1772472630.31136 973 73a640797d79cdd2406b5f1c14a3e475 "pdflatex"
-  "main.out" 1772472630.31171 820 83aac25592814ae5c1e0f113cd2e6a33 "pdflatex"
-  "main.tex" 1772472629.81801 14414 42bd64017c60d20580bc92384626c9c2 ""
+  "CV - Yang Yang.aux" 1772472712.66623 973 73a640797d79cdd2406b5f1c14a3e475 "pdflatex"
+  "CV - Yang Yang.out" 1772472712.66674 820 83aac25592814ae5c1e0f113cd2e6a33 "pdflatex"
+  "CV - Yang Yang.tex" 1772472642.97762 14414 42bd64017c60d20580bc92384626c9c2 ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.out"
-  "main.pdf"
+  "CV - Yang Yang.aux"
+  "CV - Yang Yang.log"
+  "CV - Yang Yang.out"
+  "CV - Yang Yang.pdf"
   (rewritten before read)
